@@ -22,7 +22,8 @@ body {
 }
 
 .container.show-nav {
-  transform: rotate(-15deg);
+  transform: rotate(-20deg);
+  position: fixed;
 }
 
 .circle-container {
@@ -41,7 +42,7 @@ body {
 }
 
 .container.show-nav .circle {
-  transform: rotate(-75deg);
+  transform: rotate(-70deg);
 }
 
 .circle button {
@@ -105,6 +106,15 @@ nav ul li + li {
 nav ul li + li + li {
   margin-left: 15px;
   transform: translateX(-200%);
+}
+nav a {
+  color: #fafafa;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+nav a:hover {
+  color: #ff7979;
+  font-weight: bold;
 }
 
 .content img {
