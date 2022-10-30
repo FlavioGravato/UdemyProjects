@@ -1,3 +1,21 @@
 h2 {
-  color: rgb(100, 100, 100);
+  color: teal;
+  background-color: rgb(255, 188, 188);
+  text-align: center;
+  text-decoration: blue underline wavy;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  color: magenta;
+  background-color: cyan;
+}
+
+p {
+  color: olive;
+  background: orange;
+}
+body {
+  background-color: #000000;
 }
